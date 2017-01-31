@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Memcached.ClientLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,11 @@ namespace Demo01
     {
         static void Main(string[] args)
         {
+            Cache.Client.Add("01", "Hello");
+            var s = Cache.Client.Get("01");
+            Console.WriteLine(s.ToString());
+
+            Console.ReadKey();
         }
     }
 }
