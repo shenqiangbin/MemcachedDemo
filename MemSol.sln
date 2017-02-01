@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo01", "Demo01\Demo01.csproj", "{3DD88994-7E0E-4581-903A-E6C5C1D7572D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "enyim", "enyim", "{E1C1FB15-05C5-49DB-AD9C-7ED0578CABFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enyim.Demo01", "Enyim.Demo01\Enyim.Demo01.csproj", "{657E29A6-5773-40B0-91CD-DF6C7B9DB329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{3DD88994-7E0E-4581-903A-E6C5C1D7572D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DD88994-7E0E-4581-903A-E6C5C1D7572D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DD88994-7E0E-4581-903A-E6C5C1D7572D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657E29A6-5773-40B0-91CD-DF6C7B9DB329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657E29A6-5773-40B0-91CD-DF6C7B9DB329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657E29A6-5773-40B0-91CD-DF6C7B9DB329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657E29A6-5773-40B0-91CD-DF6C7B9DB329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{657E29A6-5773-40B0-91CD-DF6C7B9DB329} = {E1C1FB15-05C5-49DB-AD9C-7ED0578CABFD}
 	EndGlobalSection
 EndGlobal
