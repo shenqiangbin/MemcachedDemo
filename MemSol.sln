@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "enyim", "enyim", "{E1C1FB15
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enyim.Demo01", "Enyim.Demo01\Enyim.Demo01.csproj", "{657E29A6-5773-40B0-91CD-DF6C7B9DB329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Cache", "Services.Cache\Services.Cache.csproj", "{EFCB737E-8E79-4A9E-B5C3-92DBBCD40FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Cache.Demo", "Services.Cache.Demo\Services.Cache.Demo.csproj", "{76E17C2D-43F5-4661-9781-D9A47136A778}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{657E29A6-5773-40B0-91CD-DF6C7B9DB329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{657E29A6-5773-40B0-91CD-DF6C7B9DB329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{657E29A6-5773-40B0-91CD-DF6C7B9DB329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFCB737E-8E79-4A9E-B5C3-92DBBCD40FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCB737E-8E79-4A9E-B5C3-92DBBCD40FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCB737E-8E79-4A9E-B5C3-92DBBCD40FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCB737E-8E79-4A9E-B5C3-92DBBCD40FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E17C2D-43F5-4661-9781-D9A47136A778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E17C2D-43F5-4661-9781-D9A47136A778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E17C2D-43F5-4661-9781-D9A47136A778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E17C2D-43F5-4661-9781-D9A47136A778}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
